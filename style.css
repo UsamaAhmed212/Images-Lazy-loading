@@ -1,16 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 img {
+    min-width: 600px;
+    min-height: 400px;
+    background-color: #bbbbbb;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
-/* div {
-    padding: 4px;
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
-div img {
-    margin-right: 30px;
-} */
