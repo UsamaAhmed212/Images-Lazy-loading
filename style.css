@@ -1,0 +1,16 @@
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* div {
+    padding: 4px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+div img {
+    margin-right: 30px;
+} */
