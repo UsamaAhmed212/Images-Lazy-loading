@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    loadImage = function(e) {
+"use strict";
+window.onload = function() {
+    function loadImage(e) {
         var elements = document.querySelectorAll("img[data-src]");
         elements.forEach(function (element) {
             if(element.hasAttribute("data-src") && element.getAttribute("data-src")) {
@@ -21,12 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             
         });
-    };
-    
+    }
+
+    loadImage();
     window.addEventListener('load', loadImage);
     window.addEventListener('scroll', loadImage);
-    document.querySelector("div").addEventListener('scroll', loadImage);
     window.addEventListener('resize', loadImage);
     window.addEventListener("wheel", loadImage);
 
-});
+}
+
